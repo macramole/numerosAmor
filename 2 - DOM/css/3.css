@@ -1,0 +1,54 @@
+body {
+    background: url("../img/bg.png");
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+section {
+    /*width: 30%;*/
+    /*margin: 0 auto;*/
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1.5em;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+fieldset label,
+fieldset input,
+fieldset button {
+    display: block;
+}
+fieldset label {
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+}
+fieldset input {
+    background-color: pink;
+    border: 0;
+    height: 2em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 3em;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 35px;
+}
+fieldset button {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.invisible {
+    display: none;
+}
+
+#btnAmor {
+    margin-top: 2em;
+}

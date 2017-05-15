@@ -1,0 +1,93 @@
+body {
+    background: url("../img/bg.png");
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+section {
+    /*width: 30%;*/
+    /*margin: 0 auto;*/
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1.5em;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+fieldset label,
+fieldset input,
+fieldset button {
+    display: block;
+}
+fieldset label {
+    margin-bottom: 0.5em;
+    font-size: 0.9em;
+}
+fieldset input {
+    background-color: pink;
+    border: 0;
+    height: 2em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 3em;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 35px;
+}
+fieldset button {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.invisible {
+    display: none;
+}
+
+#btnAmor, #btnVolver {
+    margin-top: 2em;
+}
+
+#resultados {
+    font-size: 0.8em;
+}
+#resultados.invisible {
+    opacity: 0;
+    display: block;
+}
+#resultados .resultado {
+    position: relative;
+    background-color: #5fb2f9;
+    width: 10%;
+    margin: 0 auto;
+    height: 0px;
+    color: black;
+}
+#resultados .resultado .barra {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 0%;
+    transition: height 1s;
+    box-shadow:  20px 0 80px rgba(255,255,255,1);
+    transform: scale(4) rotate(45deg);
+
+}
+
+#resultados .resultado .rAma {
+    background-color: #ff1ef4;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d3cb2a+1,7db9e8+42,7db9e8+52,7db9e8+53,e27a99+66,7db9e8+100 */
+background: rgb(211,203,42); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(211,203,42,1) 1%, rgba(125,185,232,1) 42%, rgba(125,185,232,1) 52%, rgba(125,185,232,1) 53%, rgba(226,122,153,1) 66%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(211,203,42,1) 1%,rgba(125,185,232,1) 42%,rgba(125,185,232,1) 52%,rgba(125,185,232,1) 53%,rgba(226,122,153,1) 66%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(211,203,42,1) 1%,rgba(125,185,232,1) 42%,rgba(125,185,232,1) 52%,rgba(125,185,232,1) 53%,rgba(226,122,153,1) 66%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3cb2a', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#resultados .resultado .rCree {
+    background-color: #fefe51;
+}
