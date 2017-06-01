@@ -1,0 +1,11 @@
+body {
+    margin : 0;
+}
+
+#contenedor {
+    /*height: 600px;*/
+}
+
+#contenedor > div {
+    transition: height 0.4s;
+}
